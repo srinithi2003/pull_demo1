@@ -1,0 +1,26 @@
+
+
+.c11{
+    margin: 20px;
+    border-radius: 30px;
+    
+}
+
+
+.c1{
+    background-color: rgb(226, 219, 219);
+    border-radius: 10px;
+    /* outline: 3px solid blue; */
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.c2{
+    margin-top: 40px;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-left: 5px solid green;
+}
+

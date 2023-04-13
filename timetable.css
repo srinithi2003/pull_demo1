@@ -1,0 +1,28 @@
+table,tr,td,th{
+    border:1px solid blue;
+    border-collapse: collapse;
+}
+td,th{
+
+    padding:8px 50px ;
+}
+body{
+    padding: 100px 100px;
+}
+.title{
+    text-align: center;
+    font-family:cursive;
+    font-size:xx-large;
+    padding-bottom: 40px;
+}
+#form{
+    padding-top: 80px;
+    text-align: center;
+    border: 5px solid blue;
+    box-shadow: 15px 10px 3px 20px;
+}
+
+#fo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-stretch:wider;
+}

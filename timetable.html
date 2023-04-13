@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./timetable.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="title">Class Time Table</div>
+    <h1 id="n1">Name: </h1>
+    <h1 id="n2">Roll No: </h1>
+    <div style="padding: 10px;background-color: aliceblue;">
+        <marquee style="font-size: large; color: red;" >Note!!    This is an temporary time table only    </marquee>
+    </div>
+    <table style="margin-top: 20px;">
+        <tr>
+            <th>Day\Period</th>
+            <th>1</th>
+            <th>2</th>
+            <th rowspan="7" style="padding: 30px;writing-mode: vertical-lr;">Break</th>
+            <th>3</th>
+            <th>4</th>
+            <th rowspan="7" style="padding: 30px;writing-mode: vertical-lr;">Lunch</th>
+            <th>5</th>
+            <th>6</th>
+            <th rowspan="7" style="padding: 30px;writing-mode: vertical-lr;">Break</th>
+            <th>7</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>DS</td>
+            <td>OS</td>
+            <td>OS</td>
+            <td>OS</td>
+            <td>OS</td>
+            <td>ML</td>
+            <td>OS</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>CN</td>
+            <td>OS</td>
+            <td>OS</td>
+            <td>ML</td>
+            <td>CN</td>
+            <td>CN</td>
+            <td>ML</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>CN</td>
+            <td>CN</td>
+            <td colspan="2">OS</td>
+            
+            <td>CN</td>
+            <td>OS</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>CN</td>
+            <td>OS</td>
+            <td>CN</td>
+            <td>CN</td>
+            <td>CN</td>
+            <td>OS</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td colspan="2">OS</td>
+            
+            <td>CN</td>
+            <td>CN</td>
+            <td>CN</td>
+            <td>OS</td>
+            <td>CN</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>CN</td>
+            <td>CN</td>
+            <td>CN</td>
+            <td>CN</td>
+            <td>CN</td>
+            <td>CN</td>
+            <td>CN</td>
+        </tr>
+    </table>
+
+
+    <br><br><br>
+
+    <div id="form">
+        
+        <fieldset style="border: 2px solid rgb(96, 230, 82);">
+            <h2 id="fo">Students Registration form</h2>
+            <div>
+            <form>
+                Name : <input type="text" id="name" ><br><br>
+                Roll No:<input type="text" id="roll"><br><br>
+                <input type="button" onclick="fun()" value="submit">
+            </form>
+            </div>
+        </fieldset>
+    </div>
+
+
+    <bR><br><br>
+
+    <!-- <p style="float: left">hello  </p> -->
+    <!-- <p style="float: right;">hi  </p> -->
+    <!-- <p style="text-align: end;">sri   </p> -->
+
+<!-- <p style="column-count: 2;">hello everyone ewhdsoikxjzhewodisxhziokl remvodfp vdfom vdfop vs hello everyone ewhdsoikxjzhewodisxhziokl remvodfp vdfom vdfop vs hello everyone ewhdsoikxjzhewodisxhziokl remvodfp vdfom vdfop vs hello everyone ewhdsoikxjzhewodisxhziokl remvodfp vdfom vdfop vs </p> -->
+
+<!-- 
+
+
+
+<p>
+    <span>hi si</span>
+    <span style="padding-left: 40vw;">dxijkeldcsxjioklfewcs</span>
+
+</p>
+<p>
+    <span>hi si</span>
+    <span style="padding-left: 40vw;">dxijkedcxldcsxjioklfewcs</span>
+
+</p> -->
+
+<!-- vw-view width
+     
+-->
+
+
+
+<!-- <p  style="text-indent: 800px;">this is srinithi and I'm</p>
+<p style="float: left;">from Erode. i like</p>
+<p  style="text-indent: 800px;">coding</p> -->
+<br><br><br>
+
+
+
+
+
+
+
+</body>
+<script>
+    
+    function fun(){
+    document.getElementById("n1").innerHTML+=document.getElementById("name").value;
+    document.getElementById("n2").innerHTML+=document.getElementById("roll").value;
+    }x
+
+</script>
+</html>

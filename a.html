@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 10px;
+            margin:20px;
+        }
+        #id{
+            font-size:20px;
+            color:darkkhaki;
+        }
+        /* div p =>selecting all child(<p>) inside this div and applying the CSS
+            div >p =>selecting only child, not selecting grandchild
+            div ~p=>selecting adjust sibling
+        */
+        div ~ p{
+            color: aqua;
+        }
+
+        a{
+            color: pink;;
+        }
+        a:visited{
+            color: aqua;
+        }
+        a:hover{
+            color: royalblue;
+        }
+        a:selection{
+            color: brown;
+        }
+        a:active{
+            color: chartreuse;
+        }
+
+        h5::first-letter{
+            color: red;
+           
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>hello sri!!!..</h1>
+    <h2 id="id">Hello</h2>
+    <div>
+
+<!-- 
+        (h1,p),(h2,h3)===>siblings
+        h2 is the direct sibling of p -->
+
+        <h1>h1</h1>
+        <p>p</p>
+        <section>child
+            <p>grandchild</p>
+        </section>
+        <h2>h2</h2>
+        <h3>h3</h3>
+    </div>
+    <div id="pseudo class">
+        <p id="pse">
+            <a href="https://www.google.com/">hi this is srinithi</a>
+        </p>
+    </div>
+    <h5>Hello srinithi</h5>
+</body>
+</html>
